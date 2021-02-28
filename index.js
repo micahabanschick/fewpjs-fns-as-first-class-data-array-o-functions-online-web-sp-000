@@ -27,3 +27,5 @@ function unleashDog(dogName, dogBreed) {
   console.log(`Wake ${dogName} the ${dogBreed}`);
   return `Unleash ${dogName} the ${dogBreed}`
 };
+
+const routine = [wakeDog()]
