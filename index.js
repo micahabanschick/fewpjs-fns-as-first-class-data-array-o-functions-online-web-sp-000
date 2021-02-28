@@ -8,7 +8,7 @@ function leashDog(dogName, dogBreed) {
   return `Leash ${dogName} the ${dogBreed}`
 };
 
-function walfToPark(dogName, dogBreed) {
+function walkToPark(dogName, dogBreed) {
   console.log(`Walk ${dogName} the ${dogBreed} to the park`);
   return `Walk ${dogName} the ${dogBreed} to the park`
 };
