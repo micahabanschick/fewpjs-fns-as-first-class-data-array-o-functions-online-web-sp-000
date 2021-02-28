@@ -28,4 +28,4 @@ function unleashDog(dogName, dogBreed) {
   return `Unleash ${dogName} the ${dogBreed}`
 };
 
-const routine = [wakeDog()]
+const routine = [wakeDog(dogName, dogBreed)]
