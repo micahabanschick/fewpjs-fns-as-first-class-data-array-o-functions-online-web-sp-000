@@ -28,8 +28,4 @@ function unleashDog(dogName, dogBreed) {
   return `Unleash ${dogName} the ${dogBreed}`
 };
 
-const routine = [
-  function wakeDog(dogName, dogBreed) {
-    console.log(`Wake ${dogName} the ${dogBreed}`);
-    return `Wake ${dogName} the ${dogBreed}`
-  }]
+const routine = [wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]
